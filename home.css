@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	float: 0;
+}
+
+html {
+	background: url("./Media/backgroundImage.jpg");
+}
+
+div {
+	display: block;
+}
+
+#design {
+	max-width: 1250px;
+	margin: 0 auto;
+	clear: both;
+	position: relative;
+}
+
+.header {
+	font-family: Snell Roundhand, cursive;
+	font-size: 35px;
+	letter-spacing: 5px;
+	color: #C0C0C0;
+	text-shadow: 1px 2px 2px #D4AF37;
+	
+	text-align: center;
+	position: fixed;
+	top: 30%;
+	left:0%;
+	width: 100%;
+}
+
+.navigation { 
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 0%;
+	width: 100%;
+}
+
+.navigation a {
+	font-family: Times, Times New Roman, serif;
+	font-size: 30px;
+	letter-spacing: 2px;
+	padding-right: 50px;
+	color: #DF7D60;
+	text-shadow: 1px 2px 2px #C0C0C0;
+}
+
+.navigation a:hover {
+	color:#D49D94;
+}
+
+.social {
+	padding-right: 35px;
+	text-align: center;
+	width: 100%;
+}
+
+.social a {
+	padding-right: 35px;
+	text-align: center;
+	position: relative;
+
+}
+
+.social a:hover {
+
+}
+
+li {
+	display: inline;
+}
+
+.imageLeft {
+	mix-blend-mode: multiply;
+	position:fixed;
+	top:15px;
+	left:60px;
+}
+
+.container {
+	width: 50%;
+	margin:auto;
+}
+
+.my-form input[type="text"]{
+	float: center;
+	width: 100%;
+}
+
+footer {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	z-index: 5;
+	margin-top: 20px;
+}

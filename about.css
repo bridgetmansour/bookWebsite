@@ -1,0 +1,28 @@
+html{
+	background: url("./Media/backgroundImage.jpg");
+}
+
+.header{
+	font-family: 'Vollkorn SC', serif;
+	color: #8a0303;
+	text-shadow: 1px 2px 2px #D4AF37;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	font-size: 27px;
+
+	position:fixed;
+	top:100px;
+}
+
+.imageLeft{
+	mix-blend-mode: multiply;
+	position:fixed;
+	top:15px;
+	left:60px;
+}
+
+.imageRight{
+
+}
