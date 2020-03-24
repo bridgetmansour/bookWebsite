@@ -85,10 +85,9 @@ li {
 }
 
 .imageLeft {
-	mix-blend-mode: multiply;
-	position: relative;
-	top: 1em;
-	left:3.7em;
+	position: fixed;
+	top: 25%;
+	left: 23%;
 }
 
 .container {
@@ -96,7 +95,7 @@ li {
 	margin:auto;
 }
 
-#newsletter {
+#my-form {
 	padding-top: 1em;
 	text-align: center;
 	position: fixed;
@@ -105,12 +104,17 @@ li {
 	width: 100%;
 }
 
-input[type="text"] {
+input[type="email"] {
+	border-top-style: solid;
+	border-top-color: #D49D94;
+	border-bottom-style: solid;
+	border-bottom-color: #D49D94;
+	border-left-style: none;
 	text-align: center;
 	display: inline-block;
 	box-sizing: border-box;
-	width: 4em;
-	height: 2em;
+	width: 25em;
+	height: 1em;
 	padding: 1em 1.5em;
 }
 
