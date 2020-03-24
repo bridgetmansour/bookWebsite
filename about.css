@@ -1,28 +1,104 @@
-html{
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	float: 0;
+}
+
+html {
+	font-size: 75%;
 	background: url("./Media/backgroundImage.jpg");
 }
 
-.header{
-	font-family: 'Vollkorn SC', serif;
-	color: #8a0303;
-	text-shadow: 1px 2px 2px #D4AF37;
-	height: 100%;
-	margin: 0;
+body {
+	font-size: 0.75em;
+}
+
+div {
+	display: block;
+}
+
+#design {
+	max-width: 1250px;
+	margin: 0 auto;
+	clear: both;
+	position: relative;
+}
+
+.header {
+	font-family: Snell Roundhand, cursive;
+	font-size: 3.7em;
+	letter-spacing: 0.3em;
+	color: #C0C0C0;
+	text-shadow: 0.05em 0.1em 0.1em #D4AF37;
+
 	text-align: center;
+	position: fixed;
+	top: 5%;
+	left: 0%;
 	width: 100%;
-	font-size: 27px;
-
-	position:fixed;
-	top:100px;
 }
 
-.imageLeft{
-	mix-blend-mode: multiply;
-	position:fixed;
-	top:15px;
-	left:60px;
+.navigation { 
+	position: fixed;
+	top: 30%;
+	left: 39%;
+	width: 100%;
 }
 
-.imageRight{
+.navigation a {
+	font-family: Times, Times New Roman, serif;
+	font-size: 2.3em;
+	letter-spacing: 0.1em;
+	padding-right: 2.5em;
+	color: #DF7D60;
+	text-align: center;
+	text-shadow: 0.05em 0.05em 0.1em #C0C0C0;
+}
 
+.navigation a:hover {
+	color:#D49D94;
+}
+
+.social {
+	padding-top: 1em;
+	text-align: center;
+	position: fixed;
+	top: 35%;
+	left: 0%;
+	width: 100%;
+}
+
+.social a {
+	padding-right: 2.7em;
+	text-align: center;
+	position: relative;
+
+}
+
+.social a:hover {
+	opacity: 0.3;
+}
+
+li {
+	display: inline;
+}
+
+.imageLeft {
+	position: fixed;
+	top: 0%;
+	left: 23%;
+}
+
+.container {
+	width: 50%;
+	margin:auto;
+}
+
+footer {
+	font-size: 1.5em;
+	position: fixed;
+	bottom: 2%;
+	left: 2%;
+	margin-top: 1.2em;
 }
