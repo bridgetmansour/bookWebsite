@@ -6,7 +6,12 @@
 }
 
 html {
+	font-size: 75%;
 	background: url("./Media/backgroundImage.jpg");
+}
+
+body {
+	font-size: 0.75em;
 }
 
 div {
@@ -22,33 +27,33 @@ div {
 
 .header {
 	font-family: Snell Roundhand, cursive;
-	font-size: 35px;
-	letter-spacing: 5px;
+	font-size: 3.7em;
+	letter-spacing: 0.3em;
 	color: #C0C0C0;
-	text-shadow: 1px 2px 2px #D4AF37;
-	
+	text-shadow: 0.05em 0.1em 0.1em #D4AF37;
+
 	text-align: center;
 	position: fixed;
 	top: 30%;
-	left:0%;
+	left: 0%;
 	width: 100%;
 }
 
 .navigation { 
-	text-align: center;
 	position: fixed;
-	top: 50%;
-	left: 0%;
+	top: 55%;
+	left: 39%;
 	width: 100%;
 }
 
 .navigation a {
 	font-family: Times, Times New Roman, serif;
-	font-size: 30px;
-	letter-spacing: 2px;
-	padding-right: 50px;
+	font-size: 2.3em;
+	letter-spacing: 0.1em;
+	padding-right: 2.5em;
 	color: #DF7D60;
-	text-shadow: 1px 2px 2px #C0C0C0;
+	text-align: center;
+	text-shadow: 0.05em 0.05em 0.1em #C0C0C0;
 }
 
 .navigation a:hover {
@@ -56,20 +61,23 @@ div {
 }
 
 .social {
-	padding-right: 35px;
+	padding-top: 1em;
 	text-align: center;
+	position: fixed;
+	top: 60%;
+	left: 0%;
 	width: 100%;
 }
 
 .social a {
-	padding-right: 35px;
+	padding-right: 2.7em;
 	text-align: center;
 	position: relative;
 
 }
 
 .social a:hover {
-
+	opacity: 0.3;
 }
 
 li {
@@ -78,9 +86,9 @@ li {
 
 .imageLeft {
 	mix-blend-mode: multiply;
-	position:fixed;
-	top:15px;
-	left:60px;
+	position: relative;
+	top: 1em;
+	left:3.7em;
 }
 
 .container {
@@ -88,15 +96,28 @@ li {
 	margin:auto;
 }
 
-.my-form input[type="text"]{
-	float: center;
+#newsletter {
+	padding-top: 1em;
+	text-align: center;
+	position: fixed;
+	top: 70%;
+	left: 0%;
 	width: 100%;
 }
 
+input[type="text"] {
+	text-align: center;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 4em;
+	height: 2em;
+	padding: 1em 1.5em;
+}
+
 footer {
-	position: absolute;
-	bottom: 15px;
-	left: 15px;
-	z-index: 5;
-	margin-top: 20px;
+	font-size: 1.5em;
+	position: fixed;
+	bottom: 2%;
+	left: 2%;
+	margin-top: 1.2em;
 }
