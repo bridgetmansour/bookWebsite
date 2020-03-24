@@ -90,6 +90,13 @@ li {
 	left: 23%;
 }
 
+.imageRight {
+	transform: scaleX(-1);
+	position: fixed;
+	top: 25%;
+	right: 23%;
+}
+
 .container {
 	width: 50%;
 	margin:auto;
