@@ -26,17 +26,19 @@ div {
 }
 
 .header {
-	font-family: Snell Roundhand, cursive;
-	font-size: 3.7em;
-	letter-spacing: 0.3em;
-	color: #C0C0C0;
-	text-shadow: 0.05em 0.1em 0.1em #D4AF37;
-
 	text-align: center;
 	position: fixed;
 	top: 30%;
 	left: 0%;
 	width: 100%;
+}
+
+.header a {
+	font-family: Snell Roundhand, cursive;
+	font-size: 3.7em;
+	letter-spacing: 0.3em;
+	color: #C0C0C0;
+	text-shadow: 0.05em 0.1em 0.1em #D4AF37;
 }
 
 .navigation { 
