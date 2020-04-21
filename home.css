@@ -94,9 +94,9 @@ li {
 
 input[type="email"] {
 	border-top-style: solid;
-	border-top-color: #4D000000;
+	border-top-color: #000000; 
 	border-bottom-style: solid;
-	border-bottom-color: #4D000000;
+	border-bottom-color: #000000; 
 	border-left-style: none;
 	text-align: center;
 	display: inline-block;

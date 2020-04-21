@@ -83,29 +83,6 @@ li {
 	margin:auto;
 }
 
-#my-form {
-	padding-top: 1em;
-	text-align: center;
-	position: fixed;
-	top: 70%;
-	left: 0%;
-	width: 100%;
-}
-
-input[type="email"] {
-	border-top-style: solid;
-	border-top-color: #D49D94;
-	border-bottom-style: solid;
-	border-bottom-color: #D49D94;
-	border-left-style: none;
-	text-align: center;
-	display: inline-block;
-	box-sizing: border-box;
-	width: 25em;
-	height: 1em;
-	padding: 1em 1.5em;
-}
-
 footer {
 	font-size: 1.5em;
 	position: fixed;
