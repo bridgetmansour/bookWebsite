@@ -25,25 +25,17 @@ div {
 	position: relative;
 }
 
-.header {
-	text-align: center;
+.logo {
+  	text-align: center;
 	position: fixed;
-	top: 5%;
+	top: 10%;
 	left: 0%;
 	width: 100%;
 }
 
-.header a {
-	font-family: Snell Roundhand, cursive;
-	font-size: 3.7em;
-	letter-spacing: 0.3em;
-	color: #C0C0C0;
-	text-shadow: 0.05em 0.1em 0.1em #D4AF37;
-}
-
 .navigation { 
 	position: fixed;
-	top: 30%;
+	top: 55%;
 	left: 39%;
 	width: 100%;
 }
@@ -66,7 +58,7 @@ div {
 	padding-top: 1em;
 	text-align: center;
 	position: fixed;
-	top: 35%;
+	top: 60%;
 	left: 0%;
 	width: 100%;
 }
@@ -86,22 +78,32 @@ li {
 	display: inline;
 }
 
-.imageLeft {
-	position: fixed;
-	top: 0%;
-	left: 17%;
-}
-
-.imageRight {
-	transform: scaleX(-1);
-	position: fixed;
-	top: 0%;
-	right: 17%;
-}
-
 .container {
 	width: 50%;
 	margin:auto;
+}
+
+#my-form {
+	padding-top: 1em;
+	text-align: center;
+	position: fixed;
+	top: 70%;
+	left: 0%;
+	width: 100%;
+}
+
+input[type="email"] {
+	border-top-style: solid;
+	border-top-color: #D49D94;
+	border-bottom-style: solid;
+	border-bottom-color: #D49D94;
+	border-left-style: none;
+	text-align: center;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 25em;
+	height: 1em;
+	padding: 1em 1.5em;
 }
 
 footer {
