@@ -25,11 +25,12 @@ div {
 	position: relative;
 }
 
-#logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.logo {
+  	text-align: center;
+	position: fixed;
+	top: 10%;
+	left: 0%;
+	width: 100%;
 }
 
 .navigation { 
