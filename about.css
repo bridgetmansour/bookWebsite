@@ -47,7 +47,7 @@ div {
 	padding-right: 2.5em;
 	color: #d8cdec;
 	text-align: center;
-	text-shadow: 0.05em 0.05em 0.1em #C0C0C0;
+	text-shadow: 0.05em 0.05em 0.1em #000;
 }
 
 .navigation a:hover {
