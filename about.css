@@ -1,103 +1,120 @@
 * {
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
-	float: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    float: 0;
 }
 
 html {
-	font-size: 75%;
-	background: url("./Media/backgroundImage.jpg");
+    font-size: 75%;
+    
 }
 
 body {
-	font-size: 0.75em;
+    font-size: 0.75em;
 }
 
 div {
-	display: block;
+    display: block;
 }
 
 #design {
-	max-width: 1250px;
-	margin: 0 auto;
-	clear: both;
-	position: relative;
+    max-width: 1250px;
+    margin: 0 auto;
+    clear: both;
+    position: relative;
 }
 
 .logo {
-  	text-align: center;
-	position: fixed;
-	left: 0%;
-	width: 100%;
+    text-align: center;
+    position: fixed;
+    left: 0%;
+    width: 100%;
 }
 
 .navigation { 
-	position: fixed;
-	top: 55%;
-	left: 39%;
-	width: 100%;
+    position: fixed;
+    top: 55%;
+    left: 39%;
+    width: 100%;
 }
 
 .navigation a {
-	font-family: Cormorant Garamond;
-	font-size: 2.3em;
-	letter-spacing: 0.1em;
-	padding-right: 2.5em;
-	color: #d8cdec;
-	text-align: center;
-	text-shadow: 0.05em 0.05em 0.1em #000;
+    font-family: Cormorant Garamond;
+    font-size: 2.3em;
+    letter-spacing: 0.1em;
+    padding-right: 2.5em;
+    color: #d8cdec;
+    text-align: center;
+    text-shadow: 0.05em 0.05em 0.1em #000;
 }
 
 .navigation a:hover {
-	color:#D49D94;
+    color:#D49D94;
 }
 
 .bio-and-image {
     display: flex;
-    align-items: center;
-    justify-content: start;
+    align-items: flex-start;
+    justify-content: flex-start;
     margin-top: 20px;
 }
 
 .bio-image img {
-    width: 30%;
+    width: 20%; /* Adjusted width */
+    max-width: 200px; /* Maximum width */
+    height: auto;
     margin-right: 20px;
 }
 
+#author-bio {
+    width: 70%; /* Adjust as needed */
+}
+
 .social {
-	padding-top: 1em;
-	text-align: center;
-	position: fixed;
-	top: 60%;
-	left: 0%;
-	width: 100%;
+    padding-top: 1em;
+    text-align: center;
+    position: fixed;
+    top: 60%;
+    left: 0%;
+    width: 100%;
 }
 
 .social a {
-	padding-right: 2.7em;
-	text-align: center;
-	position: relative;
-
+    padding-right: 2.7em;
+    text-align: center;
+    position: relative;
 }
 
 .social a:hover {
-	opacity: 0.3;
+    opacity: 0.3;
 }
 
 li {
-	display: inline;
+    display: inline;
 }
 
 .container {
-	width: 50%;
-	margin:auto;
+    width: 80%; /* Adjusted width */
+    margin: auto;
 }
 
 footer {
-	font-size: 1.5em;
-	position: fixed;
-	bottom: 2%;
-	left: 2%;
-	margin-top: 1.2em;
+    font-size: 1.5em;
+    position: fixed;
+    bottom: 2%;
+    left: 2%;
+    margin-top: 1.2em;
+}
+
+/* Responsive design adjustments for smaller screens */
+@media (max-width: 768px) {
+    .bio-image img {
+        width: 100%; /* Full width on smaller screens */
+        margin-bottom: 20px; /* Space below the image */
+    }
+
+    .bio-and-image {
+        flex-direction: column;
+    }
 }
