@@ -123,6 +123,7 @@ input[type="text"], input[type="email"] {
 	box-sizing: border-box;
 	width: 20em;
 	height: 1em;
+	padding: 2px;
 }
 
 footer {
