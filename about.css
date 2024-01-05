@@ -53,6 +53,18 @@ div {
 	color:#D49D94;
 }
 
+.bio-and-image {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 20px;
+}
+
+.bio-image img {
+    max-width: 200px; /* Adjust as needed */
+    margin-right: 20px;
+}
+
 .social {
 	padding-top: 1em;
 	text-align: center;
