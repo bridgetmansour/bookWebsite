@@ -37,7 +37,8 @@ header {
 }
 
 #newsletter h2 {
-    font-family: 'Brush Script MT', cursive;
+    font-family: Eye Catching Pro;
+    letter-spacing: 0.1px;
     margin-bottom: 10px; /* Spacing below the heading */
 }
 
