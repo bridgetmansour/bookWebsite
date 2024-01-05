@@ -20,9 +20,6 @@ html, body {
 
 .logo {
     text-align: center;
-    position: fixed;
-    top: 10%;
-    left: 0;
     width: 100%;
 }
 
@@ -56,13 +53,18 @@ header {
     text-align: center;
 }
 
+.navigation li {
+    display: inline; /* Lists navigation bar items horizontally instead of vertically */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .navigation a {
 	font-family: Cormorant Garamond;
 	font-size: 2.3em;
-	letter-spacing: 0.1em;
 	color: #d8cdec;
 	text-align: center;
-	text-shadow: 0.05em 0.05em 0.1em #000;
+	text-shadow: 0.02em 0.02em 0.05em #000;
 }
 
 /* Responsive adjustments for the navigation bar if needed */
@@ -92,10 +94,6 @@ header {
 
 .social a:hover {
 	opacity: 0.3;
-}
-
-.navigation li {
-    display: inline; /* Lists navigation bar items horizontally instead of vertically */
 }
 
 .container {
