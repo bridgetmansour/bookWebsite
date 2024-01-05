@@ -78,6 +78,8 @@ header {
 .social {
 	width: 100%;
 	text-align: center;
+	margin-left: 5px;
+    	margin-right: 5px;
 }
 
 .social li {
@@ -109,7 +111,6 @@ header {
 /* Responsive adjustments for the form if needed */
 @media screen and (max-width: 768px) {
     #my-form {
-        width: 90%; /* Slightly narrower on smaller screens */
         padding: 1em; /* Adjust padding for smaller screens */
     }
 }
@@ -123,9 +124,8 @@ input[type="text"], input[type="email"] {
 }
 
 footer {
-	font-size: 1.5em;
+	font-size: 1em;
 	position: fixed;
 	bottom: 2%;
 	left: 2%;
-	margin-top: 1.2em;
 }
