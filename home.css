@@ -39,6 +39,18 @@ header {
     /* Add styles for header if needed */
 }
 
+#newsletter {
+    padding: 20px;
+}
+
+#newsletter h2 {
+    margin-bottom: 10px; /* Spacing below the heading */
+}
+
+#newsletter p {
+    margin-bottom: 15px; /* Spacing below the paragraph */
+}
+
 .navigation { 
     width: 100%;
     text-align: center;
@@ -68,6 +80,10 @@ header {
 .social {
 	width: 100%;
 	text-align: center;
+}
+
+.social li {
+    display: inline; /* Lists social media items horizontally instead of vertically */
 }
 
 .social a {
@@ -107,7 +123,6 @@ header {
 /* Common styling for all input types */
 input[type="text"], input[type="email"] {
 	text-align: center;
-	display: inline-block;
 	box-sizing: border-box;
 	width: 20em;
 	height: 1em;
@@ -115,7 +130,7 @@ input[type="text"], input[type="email"] {
 
 footer {
 	font-size: 1.5em;
-	position: relative;
+	position: fixed;
 	bottom: 2%;
 	left: 2%;
 	margin-top: 1.2em;
