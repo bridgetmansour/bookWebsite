@@ -61,7 +61,7 @@ div {
 }
 
 .bio-image img {
-    max-width: 75px; /* Adjust as needed */
+    width: 70%;
     margin-right: 20px;
 }
 
