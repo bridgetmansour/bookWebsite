@@ -1,53 +1,64 @@
 * {
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
-	float: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box; /* Ensures padding doesn't affect overall width */
 }
 
-html {
-	font-size: 75%;
-	background: url("./Media/backgroundImage.jpg");
+html, body {
+    font-size: 100%; /* Base font size */
+    width: 100%;
+    min-height: 100%;
 }
 
-body {
-	font-size: 0.75em;
-}
-
-div {
-	display: block;
-}
-
+/* Flexible and centered layout */
 #design {
-	max-width: 1250px;
-	margin: 0 auto;
-	clear: both;
-	position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center; /* Center content */
 }
 
 .logo {
-  	text-align: center;
-	position: fixed;
-	top: 10%;
-	left: 0%;
-	width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    width: 100%;
+}
+
+/* Responsive adjustments for the logo if needed */
+@media screen and (max-width: 768px) {
+    .logo {
+        position: static;
+        top: 0;
+        width: auto; /* Adjusts width for smaller screens */
+    }
+}
+
+header {
+    /* Add styles for header if needed */
 }
 
 .navigation { 
-	position: fixed;
-	top: 55%;
-	left: 39%;
-	width: 100%;
+    width: 100%;
+    text-align: center;
 }
 
 .navigation a {
 	font-family: Cormorant Garamond;
 	font-size: 2.3em;
 	letter-spacing: 0.1em;
-	padding-right: 2.5em;
 	color: #d8cdec;
 	text-align: center;
 	text-shadow: 0.05em 0.05em 0.1em #000;
+}
+
+/* Responsive adjustments for the navigation bar if needed */
+@media screen and (max-width: 768px) {
+    .navigation a {
+        font-size: 1em; /* Smaller font size for mobile devices */
+	text-shadow: 0.022em 0.022em 0.5em #000;
+    }
 }
 
 .navigation a:hover {
@@ -55,27 +66,20 @@ div {
 }
 
 .social {
-	padding-top: 1em;
-	text-align: center;
-	position: fixed;
-	top: 60%;
-	left: 0%;
 	width: 100%;
+	text-align: center;
 }
 
 .social a {
-	padding-right: 2.7em;
 	text-align: center;
-	position: relative;
-
 }
 
 .social a:hover {
 	opacity: 0.3;
 }
 
-li {
-	display: inline;
+.navigation li {
+    display: inline; /* Lists navigation bar items horizontally instead of vertically */
 }
 
 .container {
@@ -84,31 +88,34 @@ li {
 }
 
 #my-form {
-	padding-top: 1em;
-	text-align: center;
-	position: fixed;
-	top: 70%;
-	left: 0%;
-	width: 100%;
+    padding-top: 1em;
+    text-align: center;
+    position: relative; /* Changed from fixed to relative */
+    width: 100%; /* Full width of the container */
+    margin: 1em auto; /* Added margin for spacing */
+    box-sizing: border-box; /* Ensures padding is included in width */
 }
 
-input[type="email"] {
-	border-top-style: solid;
-	border-top-color: #000000; 
-	border-bottom-style: solid;
-	border-bottom-color: #000000; 
-	border-left-style: none;
+/* Responsive adjustments for the form if needed */
+@media screen and (max-width: 768px) {
+    #my-form {
+        width: 90%; /* Slightly narrower on smaller screens */
+        padding: 1em; /* Adjust padding for smaller screens */
+    }
+}
+
+/* Common styling for all input types */
+input[type="text"], input[type="email"] {
 	text-align: center;
 	display: inline-block;
 	box-sizing: border-box;
-	width: 25em;
+	width: 20em;
 	height: 1em;
-	padding: 1em 1.5em;
 }
 
 footer {
 	font-size: 1.5em;
-	position: fixed;
+	position: relative;
 	bottom: 2%;
 	left: 2%;
 	margin-top: 1.2em;
